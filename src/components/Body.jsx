@@ -1,21 +1,49 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 import "./styling/Body.scss"
 
+
 const Body = () => {
+    // const elementsRef = useRef([]);
+
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         elementsRef.current.forEach((element, index) => {
+    //             const position = element.getBoundingClientRect().top;
+    //             const screenPosition = window.innerHeight / 1; // Adjust as needed
+    //             if (position < screenPosition) {
+    //                 element.classList.add("active");
+    //             }
+    //         });
+    //     };
+
+    //     window.addEventListener("scroll", handleScroll);
+
+    //     // Clean up
+    //     return () => {
+    //         window.removeEventListener("scroll", handleScroll);
+    //     };
+    // }, []);
+
+
     return (
         <div className="body">
-            <h1>Digital First for the Construction Industry</h1>
+            <h1 className="typewriter-text animate-on-scroll">Digital First for the Construction Industry</h1>
 
-            <h3>Data Analytics</h3>
-            <p>Dive deep into the heart of your project's data to uncover actionable insights and foresights. Our interconnected <b>series of performance dashboards</b> provide real-time visibility critical project metrics, enabling you identify gaps, predict potential delays, optimize costs effectively.</p>
+            <h3 className="typewriter-text animate-on-scroll">Data Analytics</h3>
+            <container><p className="popup-text">Dive deep into the heart of your project's data to uncover actionable insights and foresights. Our interconnected <b>series of performance dashboards</b> provide real-time visibility critical project metrics, enabling you identify gaps, predict potential delays, optimize costs effectively.</p>
+            </container>
 
-            <h3>Generative AI</h3>
-            <p>From enhancing project scheduling and estimation to providing advanced analytics real-time problem-solving, our Generative AI tools are designed adapt learn from your organization's unique execution patterns, ensuring continuous improvement innovation.</p>
+            <h3 className="typewriter-text animate-on-scroll">Generative AI</h3>
+            <container>
+                <p className="popup-text animate-on-scroll">From enhancing project scheduling and estimation to providing advanced analytics real-time problem-solving, our Generative AI tools are designed adapt learn from your organization's unique execution patterns, ensuring continuous improvement innovation.</p>
+            </container>
 
-            <h3>AI Process Automation</h3>
-            <p>Our functional AI assistant and automated procurement system transform the way you manage projects by automating routine tasks, optimizing resource allocation, ensuring timely material procurement. </p>
-    </div>
+            <h3 className="typewriter-text animate-on-scroll">AI Process Automation</h3>
+            <container>
+                <p className="popup-text animate-on-scroll">Our functional AI assistant and automated procurement system transform the way you manage projects by automating routine tasks, optimizing resource allocation, ensuring timely material procurement. </p>
+            </container>
+        </div>
     )
 }
 export default Body;

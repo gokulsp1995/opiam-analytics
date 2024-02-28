@@ -1,10 +1,61 @@
+.popup-text {
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px;
+    background-color: none;
+    animation: pop-up 1s ease-in-out forwards;
+  }
+  
+  @keyframes pop-up {
+    0% {
+      transform: scale(0.7);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .typewriter-text {
+    
+    overflow: hidden; /* Hide overflow text */
+    border-right: 2px solid black; /* Add a border for the typewriter effect */
+    // white-space: nowrap; /* Prevent wrapping */
+    animation: typewriter 5s steps(40) forwards;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%; /* Expand width to reveal text */
+      border-right: none;
+    }
+  }
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0; /* Text starts invisible */
+    }
+    50% {
+      opacity: 0.6; /* Text fully visible */
+    }
+    100% {
+      opacity: 1; /* Text fades out */
+    }
+  }
+  
+  /* Apply the animation to the text */
+  .fade-in-out {
+    animation: fadeInOut 2s ease-in-out forwards; /* Adjust duration and timing function as needed */
+  }
+
 .team-text > h1 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 400;
     color: #a53656;
 }
 .team-text {
-    width: 40%;
+    width: 50%;
     text-align: justify;
     margin: 30px 50px;
 }

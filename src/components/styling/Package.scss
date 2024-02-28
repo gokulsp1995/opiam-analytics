@@ -1,3 +1,39 @@
+.popup-text {
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px;
+    background-color: none;
+    animation: pop-up 1s ease-in-out forwards;
+  }
+  
+  @keyframes pop-up {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .typewriter-text {
+    
+    overflow: hidden; /* Hide overflow text */
+    border-right: 2px solid black; /* Add a border for the typewriter effect */
+    // white-space: nowrap; /* Prevent wrapping */
+    animation: typewriter 4s steps(5) forwards;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%; /* Expand width to reveal text */
+      border-right: none;
+    }
+  }
+  
+
 .package{
     background-color: #7aa8cf;
     color: #2d2d2d;

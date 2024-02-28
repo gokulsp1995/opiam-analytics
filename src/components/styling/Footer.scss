@@ -1,10 +1,28 @@
+.typewriter-text {
+  
+  overflow: hidden; /* Hide overflow text */
+  border-right: 2px solid white; /* Add a border for the typewriter effect */
+  white-space: nowrap; /* Prevent wrapping */
+  animation: typewriter 1s steps(40) forwards;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%; /* Expand width to reveal text */
+    border-right: none;
+  }
+}
+
 .footer {
     background-color: #2d2d2d;
     padding: 20px 0;
     color: snow;
   }
   
-  .container {
+  .container1 {
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -21,9 +39,12 @@
     // align-items: center;
   }
   
-  // .left-content {
-  //   // flex: 1;
-  // }
+  .left-content {
+    img {
+      width: 200px;
+      // margin: auto;
+    }
+  }
   
   .right-content {
     display: flex;

@@ -4,15 +4,17 @@ import "./styling/Footer.scss";
 import soc1 from "../images/soc1.jpg"; 
 import soc2 from "../images/soc2.jpg";
 import soc3 from "../images/soc3.jpg";
+import logo from "../images/logo.jpg";
 
 
 const Footer = () => {
     return (
         <footer className="footer">
-            <div className="container">
+            <div className="container1">
                 <div className="footer-content">
                     <div className="left-content">
-                        <h2 className="heading">Schedule a Demo</h2>
+                        <h2 className="heading typewriter-text">Schedule a Demo</h2>
+                        <img src={logo} alt="logo" />
                     </div>
                         <div className="right-content">
                             <div className="address-content">

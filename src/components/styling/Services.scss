@@ -1,3 +1,39 @@
+.popup-text {
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px;
+    background-color: none;
+    animation: pop-up 1s ease-in-out forwards;
+  }
+  
+  @keyframes pop-up {
+    0% {
+      transform: scale(0.7);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .typewriter-text {
+    
+    overflow: hidden; /* Hide overflow text */
+    border-right: 2px solid white; /* Add a border for the typewriter effect */
+    white-space: nowrap; /* Prevent wrapping */
+    animation: typewriter 1s steps(40) forwards;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%; /* Expand width to reveal text */
+      border-right: none;
+    }
+  }
+
+
 .services {
     display: flex;
     flex-direction: row;
@@ -16,7 +52,7 @@
         margin-top: 10px;
     }
     img{
-        width: 900px;
+        width: 50%;
     }
 }
 @media (max-width: 768px) {
@@ -25,7 +61,7 @@
         width: 100%;
         margin: auto;
         img{
-            width: 450px;
+            width: 80%;
         }
         div{
             width: 80%;

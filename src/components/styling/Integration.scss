@@ -1,16 +1,58 @@
-.integration{
+.popup-text {
+    // display: inline-block;
+    font-size: 24px;
+    padding: 10px;
+    background-color: none;
+    animation: pop-up 2s ease-in-out forwards;
+}
+
+@keyframes pop-up {
+    0% {
+        transform: scale(0.7);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.typewriter-text {
+    overflow: hidden;
+    /* Hide overflow text */
+    border-right: 2px solid white;
+    /* Add a border for the typewriter effect */
+    white-space: nowrap;
+    /* Prevent wrapping */
+    animation: typewriter 0.5s steps(10) forwards;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+        /* Expand width to reveal text */
+        border-right: none;
+    }
+}
+
+.integration {
     background-color: #374355;
     color: snow;
 }
+
 .integration > h1 {
     text-align: left;
-    margin: 20px;
+    // margin: 20px;
     margin-top: 50px;
-    margin-left: 10%;
+    // margin-left: 10%;
     font-weight: 400;
-    padding: 20px 20px 0px 20px;
+    padding: 50px 20px 20px 40px;
     font-size: 50px;
 }
+
 .integration > p {
     font-size: 20px;
     text-align: right;
@@ -18,54 +60,63 @@
     padding: 30px 20px;
     // text-align: justify;
 }
+
 .integration > img {
     width: 400px;
     margin: 20px;
 }
-.first{
+
+.first {
     padding-top: 150px;
 }
+
 .second {
     padding-bottom: 150px;
 }
 
 @media (max-width: 768px) {
-    .integration > h1 {
+    .integration>h1 {
         font-size: 40px;
         font-weight: 400;
     }
+
     .integration {
         width: 100%;
         margin: auto;
         // padding: 50px;
     }
-    .first{
+
+    .first {
         padding-top: 0;
         // margin-top: 0;
         padding-left: 150px;
         padding-right: 0;
     }
+
     .second {
         padding-right: 150px;
         padding-bottom: 0;
     }
-    
-    }
 
-@media (min-width: 769px) and (max-width: 1024px){
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
     .integration {
         width: 100%;
         margin: auto;
     }
-    .first{
+
+    .first {
         padding-left: 150px;
         padding-top: 0;
     }
+
     .second {
         padding-right: 150px;
         padding-bottom: 0;
     }
-    .integration > img {
+
+    .integration>img {
         width: 400px;
         margin: 20px;
     }
