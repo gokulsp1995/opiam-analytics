@@ -58,15 +58,18 @@
         height: auto;
       }
     }
-    .logo {
-      width: 400px;
-    }
   }
 
  /* Adjustments for smaller screens (smartphones) */
 @media (max-width: 768px) {
   .header{
     width: 100%;
+    .content-container {
+      flex: 1;
+      text-align: left;
+      margin-left: 0;
+      padding: 0px;
+    }
   }
   .logo {
     width: 100px; /* Adjust size as needed */
@@ -81,16 +84,14 @@
   }
   
   .header-image {
-    width: 400px;
+    width: 80%;
   }
   .name-image {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
   }
-  img {
-    width: 200px; /* Adjust size as needed */
-    height: auto;
-  }
+  
 }
 
 /* Adjustments for tablet screens */
