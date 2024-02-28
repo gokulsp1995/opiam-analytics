@@ -60,19 +60,25 @@
     .services {
         width: 100%;
         margin: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        text-align: center;
         img{
-            width: 80%;
+            width: 90%;
         }
         div{
-            width: 80%;
+            width: 90%;
         }
         h1 {
             font-size: 30px;
             font-weight: 400;
             margin: 20px;
+            text-align: center;
         }
         a{
-            margin: 20px;
+
         }
     }
     
@@ -84,7 +90,7 @@
         margin: auto;
     }
     .services > h1 {
-        font-size: 3px;
+        font-size: 30px;
         font-weight: 400;
     }
     .services {

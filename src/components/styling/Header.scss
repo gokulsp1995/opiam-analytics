@@ -101,11 +101,12 @@
 @media (max-width: 768px) {
   .header{
     width: 100%;
+    
     .content-container {
       flex: 1;
       text-align: left;
-      margin-left: 0;
-      padding: 0px;
+      margin-left: 0px;
+      padding: 20px;
     }
   }
   .logo {
@@ -118,10 +119,12 @@
   
   .sub-heading {
     font-size: 28px; /* Adjust font size for smaller screens */
+    margin: auto;
   }
   
   .header-image {
     width: 80%;
+    margin: auto;
   }
   .name-image {
     display: flex;
