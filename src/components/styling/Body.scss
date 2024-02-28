@@ -1,0 +1,33 @@
+.body > h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #a53656;
+}
+.body {
+    width: 50%;
+    margin: auto;
+}
+.body > h3 {
+    font-size: 32px;
+}
+@media (max-width: 768px) {
+    .body > h1 {
+        font-size: 40px;
+        font-weight: 400;
+        color: #a53656;
+    }
+    .body {
+        width: 100%;
+        margin: auto;
+    }
+    .body > h3 {
+        font-size: 32px;
+    }
+    }
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .body {
+        width: 80%;
+        margin: auto;
+    }
+}

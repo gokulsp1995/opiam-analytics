@@ -1,0 +1,59 @@
+.team-text > h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #a53656;
+}
+.team-text {
+    width: 40%;
+    text-align: justify;
+    margin: 30px 50px;
+}
+h4 {
+    font-size: 20px;
+}
+.team{
+    display: flex;
+    justify-content: space-between;
+}
+.team-img >img{
+    width: 300px;
+    margin: 10px;
+}
+.gray-h4{
+    color: gray;
+}
+@media (max-width: 768px) {
+    .team > h1 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .team {
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+    }
+    .team-text {
+        width: 95%;
+        text-align: justify;
+        margin: auto;
+    }
+    .team > h4 {
+        font-size: 28px;
+    }
+    }
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .team {
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+    }
+    .team-text {
+        width: 90%;
+        text-align: justify;
+        margin: auto;
+    }
+    .team > h4 {
+        font-size: 28px;
+    }
+}

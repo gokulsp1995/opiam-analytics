@@ -1,0 +1,118 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #374355;
+    color: snow;
+  
+    .logo-container {
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+  
+      .logo {
+        width: 50px; /* Adjust size as needed */
+        height: auto;
+        margin-right: 10px;
+      }
+  
+      
+    }
+    .name-image {
+      display: flex;
+    }
+    .company-name {
+        font-size: 16px;
+        font-weight: 900;
+      }
+  
+    .content-container {
+      flex: 1;
+      text-align: left;
+      margin-left: 20px;
+      padding: 20px;
+  
+      .main-heading {
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        word-wrap: break-word; 
+      }
+  
+      .sub-heading {
+        font-size: 40px;
+        font-weight: 300;
+        margin-bottom: 10px;
+      }
+  
+      .contact-info {
+        font-size: 14px;
+        color: snow;
+        text-decoration: underline;
+      }
+  
+      .header-image {
+        width: 200px; /* Adjust size as needed */
+        height: auto;
+      }
+    }
+    .logo {
+      width: 400px;
+    }
+  }
+
+ /* Adjustments for smaller screens (smartphones) */
+@media (max-width: 768px) {
+  .header{
+    width: 100%;
+  }
+  .logo {
+    width: 100px; /* Adjust size as needed */
+  }
+  
+  .main-heading {
+    font-size: 36px; /* Adjust font size for smaller screens */
+  }
+  
+  .sub-heading {
+    font-size: 28px; /* Adjust font size for smaller screens */
+  }
+  
+  .header-image {
+    width: 400px;
+  }
+  .name-image {
+    display: flex;
+    flex-direction: column;
+  }
+  img {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+  }
+}
+
+/* Adjustments for tablet screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .logo {
+    width: 150px; /* Adjust size as needed for tablets */
+  }
+  
+  .main-heading {
+    font-size: 42px; /* Adjust font size for tablets */
+  }
+  
+  .sub-heading {
+    font-size: 34px; /* Adjust font size for tablets */
+  }
+  
+  .header-image {
+    width: 90%; /* Adjust size as needed for tablets */
+    margin: auto;
+  }
+  .name-image {
+    display: flex;
+    flex-direction: column;
+  }
+}
