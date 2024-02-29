@@ -92,7 +92,7 @@
       flex-direction: column;
     }
     .logo {
-      width: 100px; /* Adjust size as needed */
+      width: 90px; 
     }
     .right-content {
       margin-top: 50px;
@@ -102,12 +102,13 @@
       padding: 10px;
     }
     
-    .main-heading {
-      font-size: 36px; /* Adjust font size for smaller screens */
+    .heading {
+      font-size: 36px; 
+      padding: 10px;
     }
     
     .sub-heading {
-      font-size: 28px; /* Adjust font size for smaller screens */
+      font-size: 28px; 
     }
     .address-content {
       text-align: center;
@@ -118,7 +119,7 @@
       flex-direction: column;
     }
     .left-content img{
-      width: 200px;
+      width: 180px;
       margin: auto;
     }
   }
