@@ -76,7 +76,7 @@
 
 @media (max-width: 768px) {
     .integration>h1 {
-        font-size: 40px;
+        font-size: 34px;
         font-weight: 400;
     }
 
@@ -84,6 +84,14 @@
         width: 100%;
         margin: auto;
         // padding: 50px;
+        img {
+            width: 90%;
+            margin: 10px;
+        }
+        p{
+            text-align: justify;
+            // padding: 20px;
+        }
     }
 
     .first {

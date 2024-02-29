@@ -9,7 +9,7 @@ const Integration = () => {
             <h1 className="typewriter-text">Seamless Integration</h1>
             <img src={image1} alt="image1" className="first"/>
             <img src={image2} alt="image2" className="second"/>
-            <p className="">Our solutions will work with your<br/> existing systems to create more value</p>
+            <p className="">Our solutions will work with your existing systems to create more value</p>
         </div>
     )
 }
