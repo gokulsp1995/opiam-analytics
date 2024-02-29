@@ -126,7 +126,8 @@
             margin: 20px auto;
         }
         h1{
-            text-wrap: wrap;
+            // text-wrap: wrap;
+            word-wrap: break-word;
         }
     }
     

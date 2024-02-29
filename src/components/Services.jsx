@@ -9,7 +9,7 @@ import React from "react";
     <div className="services">
         <img src={image6} alt="image6" className="popup-text"/>
         <div>
-            <h1 className="typewriter-text">Get with the <br /> times, leverage <br />technology</h1>
+            <h1 className="slide-in-from-right">Get with the <br /> times, leverage <br />technology</h1>
             <a href="">SERVICES</a>
         </div>
     </div>

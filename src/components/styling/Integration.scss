@@ -37,6 +37,34 @@
         border-right: none;
     }
 }
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-in-from-left {
+    animation: slideInFromLeft 1s ease-in-out forwards;
+  }
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-in-from-right {
+    animation: slideInFromRight 1s ease-in-out forwards;
+  }
 
 .integration {
     background-color: #374355;

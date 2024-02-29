@@ -1,8 +1,8 @@
 .popup-text {
-    display: inline-block;
+    // display: inline-block;
     // font-size: 12px;
     // padding: 10px;
-    background-color: none;
+    background-color: transparent;
     animation: pop-up 1s ease-in-out forwards;
   }
   
@@ -14,23 +14,52 @@
       transform: scale(0.7);
     }
   }
+
   
   .typewriter-text {
     
     overflow: hidden; /* Hide overflow text */
     border-right: 2px solid white; /* Add a border for the typewriter effect */
     white-space: nowrap; /* Prevent wrapping */
-    animation: typewriter 1s steps(40) forwards;
+    animation: typewriter 1s steps(40) reverse;
   }
   
   @keyframes typewriter {
     from {
-      width: 0;
+      width: 100%;
     }
     to {
       width: 100%; /* Expand width to reveal text */
       border-right: none;
     }
+  }
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-in-from-left {
+    animation: slideInFromLeft 1s ease-in-out forwards;
+  }
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-in-from-right {
+    animation: slideInFromRight 1s ease-in-out forwards;
   }
 
   .container {
