@@ -68,9 +68,14 @@
     .body {
         width: 100%;
         margin: auto;
+        padding: 30px;
+        p{
+            font-size: 16px;
+            text-align: justify;
+        }
     }
     .body > h3 {
-        font-size: 32px;
+        font-size: 24px;
     }
     }
 
