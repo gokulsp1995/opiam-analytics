@@ -18,7 +18,7 @@
 
 .footer {
     background-color: #2d2d2d;
-    padding: 20px 0;
+    padding: 20px 20px;
     color: snow;
   }
   
@@ -35,16 +35,20 @@
   }
   .footer-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
-    // align-items: center;
+    align-items: center;
   }
   
   .left-content {
     img {
-      width: 200px;
+      width: 300px;
       // margin: auto;
     }
+  }
+  .icon {
+    font-size: 35px;
+    padding: 10px;
   }
   
   .right-content {
@@ -52,6 +56,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin-top: 150px;
   }
   
   .heading {
@@ -69,19 +74,32 @@
     color: snow;
   }
   
-  .social-icons img {
-    margin-right: 50px;
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-top: 40px;
     margin-bottom: 150px;
-    width: 30px;
+    padding: 10px;
   }
+
 
   @media (max-width: 768px) {
     .footer{
       width: 100%;
     }
+    .footer-content {
+      flex-direction: column;
+    }
     .logo {
       width: 100px; /* Adjust size as needed */
+    }
+    .right-content {
+      margin-top: 50px;
+    }
+    .icon {
+      font-size: 25px;
+      padding: 10px;
     }
     
     .main-heading {
@@ -99,6 +117,10 @@
       display: flex;
       flex-direction: column;
     }
+    .left-content img{
+      width: 200px;
+      margin: auto;
+    }
   }
   
   /* Adjustments for tablet screens */
@@ -114,6 +136,8 @@
     .sub-heading {
       font-size: 34px; 
     }
-    
+    .right-content {
+      margin-top: 50px;
+    }
     
   }

@@ -6,6 +6,9 @@ import soc2 from "../images/soc2.jpg";
 import soc3 from "../images/soc3.jpg";
 import logo from "../images/logo.jpg";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
+
 
 const Footer = () => {
     return (
@@ -22,9 +25,10 @@ const Footer = () => {
                                 <a href="www.opiamanalytics.com">www.opiamanalytics.com</a>
                             </div>
                             <div className="social-icons">
-                                <img src={soc1} alt="Social Media 1" />
-                                <img src={soc2} alt="Social Media 2" />
-                                <img src={soc3} alt="Social Media 3" />
+                                <FontAwesomeIcon icon={faInstagram} className="icon"/>
+                                <FontAwesomeIcon icon={faFacebook} className="icon"/>
+                                <FontAwesomeIcon icon={faTwitter} className="icon"/>
+
                             </div>
                     </div>
                 </div>
