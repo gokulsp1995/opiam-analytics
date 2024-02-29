@@ -72,6 +72,7 @@
 }
 .three-para  li {
     font-size: 20px;
+    text-align: justify;
 
 }
 .quote {
@@ -88,6 +89,9 @@
     
     .three-para {
         flex-direction: column;
+        h1{
+            font-size: 28px;
+        }
     }
     .three-para > div{
         border: 1px solid snow;
@@ -103,8 +107,18 @@
         flex-direction: column;
         width: 100%;
         margin: auto;
+        .quote{
+            font-size: 30px;
+            text-align: center;
+        }
     
     }
+    .three-para  li {
+        font-size: 16px;
+        text-align: justify;
+    
+    }
+    
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
