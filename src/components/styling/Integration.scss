@@ -69,6 +69,9 @@
 .integration {
     background-color: #374355;
     color: snow;
+    &.animate{
+        animation: pop-up 2s ease-in-out forwards;
+    }
 }
 
 .integration > h1 {

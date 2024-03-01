@@ -17,6 +17,9 @@ h4 {
 .team{
     display: flex;
     justify-content: space-between;
+    // &.animate{
+    //     animation: pop-up 2s ease-in-out forwards;
+    // }
 }
 .team-img >img{
     width: 300px;
@@ -37,6 +40,8 @@ h4 {
         margin: auto;
         flex-direction: column;
         padding: 10px;
+
+        
     }
     .team-text {
         width: 95%;

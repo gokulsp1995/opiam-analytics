@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, useRef} from "react";
 import "./styling/Team.scss";
 import image3 from "../images/3.jpg"
 import image4 from "../images/4.jpg"
@@ -6,8 +6,27 @@ import image5 from "../images/5.jpg"
 
 
 const Team = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const headerRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                setIsVisible(true);
+                observer.unobserve(entry.target);
+            }
+        });
+    });
+
+    observer.observe(headerRef.current);
+
+    return () => {
+        observer.disconnect();
+    };
+}, []);
     return (
-    <div className="team">
+    <div ref={headerRef} className={`team ${isVisible ? 'animate' : ''}`}>
       <div className="team-text">
             <h1 className="enhance typewriter-text">Enhance the Capability of your IT Team</h1>
             <h4 className="fade-in-out">We collaborative with your IT teams,bringing together Business Analysts, DataScientists, Domain Experts, and Generative AI Specialists.</h4>

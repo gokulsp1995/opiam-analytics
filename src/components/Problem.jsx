@@ -1,12 +1,31 @@
-import React from "react";
+import React, { useState, useEffect, useRef} from "react";
 import "./styling/Problem.scss";
 import image7 from "../images/7.jpg"
 import image8 from "../images/8.jpg"
 import image9 from "../images/9.jpg"
 
 const Problem = () => {
+    const [isVisible, setIsVisible] = useState(false);
+    const headerRef = useRef(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    setIsVisible(true);
+                    observer.unobserve(entry.target);
+                }
+            });
+        });
+
+        observer.observe(headerRef.current);
+
+        return () => {
+            observer.disconnect();
+        };
+    }, []);
     return (
-        <div className="problem">
+        <div ref={headerRef} className={`problem ${isVisible ? 'animate' : ''}`}>
             <h1 className="typewriter-text">Tell us your problem, we probably already have a solution for you</h1>
             <div className="problem-div">
                 <div>

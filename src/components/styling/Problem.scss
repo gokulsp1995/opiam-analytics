@@ -54,6 +54,9 @@
     background-color: #374355;
     color: snow;
     padding: 30px;
+    &.animate {
+        animation: fadeInOut 3s ease-in-out forwards;
+    }
     h1{
         font-weight: 300;
         font-size: 40px;

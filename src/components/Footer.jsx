@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, useRef} from "react";
 import "./styling/Footer.scss";
 
 import soc1 from "../images/soc1.jpg"; 
@@ -11,8 +11,27 @@ import { faInstagram, faFacebook, faTwitter } from '@fortawesome/free-brands-svg
 
 
 const Footer = () => {
+    const [isVisible, setIsVisible] = useState(false);
+    const headerRef = useRef(null);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    setIsVisible(true);
+                    observer.unobserve(entry.target);
+                }
+            });
+        });
+
+        observer.observe(headerRef.current);
+
+        return () => {
+            observer.disconnect();
+        };
+    }, []);
     return (
-        <footer className="footer">
+        <footer ref={headerRef} className={`footer ${isVisible ? 'animate' : ''}`}>
             <div className="container1">
                 <div className="footer-content">
                     <div className="left-content">

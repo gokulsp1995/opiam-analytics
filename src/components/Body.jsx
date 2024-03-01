@@ -1,33 +1,32 @@
-import React, { useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 import "./styling/Body.scss"
 
 
 const Body = () => {
-    // const elementsRef = useRef([]);
-
-    // useEffect(() => {
-    //     const handleScroll = () => {
-    //         elementsRef.current.forEach((element, index) => {
-    //             const position = element.getBoundingClientRect().top;
-    //             const screenPosition = window.innerHeight / 1; // Adjust as needed
-    //             if (position < screenPosition) {
-    //                 element.classList.add("active");
-    //             }
-    //         });
-    //     };
-
-    //     window.addEventListener("scroll", handleScroll);
-
-    //     // Clean up
-    //     return () => {
-    //         window.removeEventListener("scroll", handleScroll);
-    //     };
-    // }, []);
+    const [isVisible, setIsVisible] = useState(false);
+    const headerRef = useRef(null);
+    
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    setIsVisible(true);
+                    observer.unobserve(entry.target);
+                }
+            });
+        });
+    
+        observer.observe(headerRef.current);
+    
+        return () => {
+            observer.disconnect();
+        };
+    }, []);
 
 
     return (
-        <div className="body">
+        <div ref={headerRef} className={`body ${isVisible ? 'animate' : ''}`} >
             <h1 className="slide-in-from-left">Digital First for the Construction Industry</h1>
 
             <h3 className="slide-in-from-right animate-on-scroll">Data Analytics</h3>
