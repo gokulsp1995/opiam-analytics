@@ -33,7 +33,7 @@ const Header = () => {
                     <div className="logo-container">
                         <img src={logo} alt="Company Logo" className="logo" />
                     </div>
-                    <h2 className="main-heading popup-text">ata Analytics and AI for the Construction Industry</h2>
+                    <h2 className="main-heading popup-text">Data Analytics and AI for the Construction Industry</h2>
                     <h3 className="sub-heading typewriter-text">Make Data-Driven Decisions</h3>
                     <p className="contact-info">SCHEDULE A CALL</p>
                 </div>
