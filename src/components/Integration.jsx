@@ -27,10 +27,10 @@ useEffect(() => {
 
     return (
         <div ref={headerRef} className={`integration ${isVisible ? 'animate' : ''}`}>
-            <h1 className="typewriter-text">Seamless <br/> Integration</h1>
+            <h1 className="">Seamless <br/> Integration</h1>
             <img src={image1} alt="image1" className="first slide-in-from-left"/>
             <img src={image2} alt="image2" className="second slide-in-from-right"/>
-            <p className="">Our solutions will work with your existing systems to create more value</p>
+            <p className="">Our solutions will work with your <br/> existing systems to create more value</p>
         </div>
     )
 }

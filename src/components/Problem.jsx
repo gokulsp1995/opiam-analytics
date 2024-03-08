@@ -26,20 +26,20 @@ const Problem = () => {
     }, []);
     return (
         <div ref={headerRef} className={`problem ${isVisible ? 'animate' : ''}`}>
-            <h1 className="typewriter-text">Tell us your problem, we probably already have a solution for you</h1>
+            <h1 className="typewriter-text">Tell us your problem, we <br/> probably already have a solution<br/> for you</h1>
             <div className="problem-div">
                 <div>
-                    <img src={image7} alt="image7" width="300px" className="popup-text"/>
+                    <img src={image7} alt="image7" width="320px" className="popup-text"/>
                     <h2 className="fade-in-out">Materials Not Reaching Site on time?</h2>
                     <p>Procurement schedules are not aligned with Real-Time Schedules</p>
                 </div>
                 <div>
-                    <img src={image8} alt="image8" width="300px" className="popup-text"/>
+                    <img src={image8} alt="image8" width="320px" className="popup-text"/>
                     <h2 className="fade-in-out">No formal Reporting?</h2>
                     <p>We provide a conversational agent to report data into your existing systems</p>
                 </div>
                 <div>
-                    <img src={image9} alt="image9" width="300px" className="popup-text"/>
+                    <img src={image9} alt="image9" width="320px" className="popup-text"/>
                     <h2 className="fade-in-out">Going over budget?</h2>
                     <p>Visibility into cashflow, and cost analysis as the project progresses in real-time</p>
                 </div>

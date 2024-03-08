@@ -35,7 +35,7 @@ const Footer = () => {
             <div className="container1">
                 <div className="footer-content">
                     <div className="left-content">
-                        <h2 className="heading typewriter-text">Schedule a Demo</h2>
+                        <h2 className="heading typewriter-text">Schedule a <br/>Demo</h2>
                         <img src={logo} alt="logo" />
                     </div>
                         <div className="right-content">

@@ -41,7 +41,7 @@ const Header = () => {
                     <h3 className="sub-heading typewriter-text">Make Data-Driven <br/> Decisions</h3>
                     <p className="contact-info">SCHEDULE A CALL</p>
                 </div>
-                <img src={image1} alt="Header Image" className="header-image popup-text" width="670px" />
+                <img src={image1} alt="Header Image" className="header-image popup-text" width="690px" />
             </div>
         </header>
     );

@@ -69,7 +69,6 @@
 .integration {
     background-color: #374355;
     color: snow;
-    // height: 100vh;
     &.animate{
         animation: pop-up 2s ease-in-out forwards;
     }
@@ -78,24 +77,24 @@
 .integration > h1 {
     text-align: left;
     // margin: 20px;
-    margin-top: 50px;
+    // margin-top: 50px;
     // margin-left: 10%;
     font-weight: 400;
-    padding: 50px 20px 20px 40px;
+    padding: 20px 20px 0px 70px;
     font-size: 50px;
 }
 
 .integration > p {
-    font-size: 20px;
+    font-size: 30px;
     text-align: right;
     // border: 2px solid red;
-    margin: 50px;
-    padding: 30px 20px;
+    right: 0;
+    padding: 10px 10px;
     // text-align: justify;
 }
 
 .integration > img {
-    width: 400px;
+    width: 350px;
     margin: 20px;
 }
 

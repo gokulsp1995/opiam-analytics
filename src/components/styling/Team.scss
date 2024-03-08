@@ -1,7 +1,7 @@
 
 
 .team-text > h1 {
-    font-size: 36px;
+    font-size: 56px;
     font-weight: 400;
     color: #a53656;
     text-wrap: wrap;
@@ -9,20 +9,24 @@
 .team-text {
     width: 50%;
     text-align: justify;
-    margin: 30px 50px;
+    margin: 0px 50px 30px 70px;
 }
 h4 {
-    font-size: 20px;
+    font-size: 27px;
 }
 .team{
     display: flex;
     justify-content: space-between;
+    height: 100vh;
     // &.animate{
     //     animation: pop-up 2s ease-in-out forwards;
     // }
 }
+.team-img {
+  margin-top: 70px;
+}
 .team-img >img{
-    width: 300px;
+    width: 400px;
     margin: 10px;
 }
 .gray-h4{
@@ -40,7 +44,7 @@ h4 {
         margin: auto;
         flex-direction: column;
         padding: 10px;
-
+        height: auto;
         
     }
     .team-text {

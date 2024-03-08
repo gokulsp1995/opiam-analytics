@@ -79,22 +79,21 @@
     
   }
 
-  .company-name {
-    font-size: 16px;
-    font-weight: 900;
-  }
+  // .company-name {
+  //   font-size: 16px;
+  //   font-weight: 900;
+  // }
 
   .content-container {
     flex: 1;
     text-align: left;
-    margin: 20px 60px;
-    padding-left: 50px;
+    margin: 20px 60px 20px 70px;
+    // padding-left: 30px;
     // margin: 20px;
     // border: 2px solid red;
-    padding-right: 200px;
 
     .main-heading {
-      font-size: 45px;
+      font-size: 64px;
       font-weight: bold;
       line-height: 1.2;
       margin-bottom: 30px;
