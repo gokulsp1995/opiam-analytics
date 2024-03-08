@@ -47,7 +47,6 @@ const Footer = () => {
                                 <FontAwesomeIcon icon={faInstagram} className="icon"/>
                                 <FontAwesomeIcon icon={faFacebook} className="icon"/>
                                 <FontAwesomeIcon icon={faTwitter} className="icon"/>
-
                             </div>
                     </div>
                 </div>

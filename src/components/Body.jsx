@@ -14,6 +14,9 @@ const Body = () => {
                     setIsVisible(true);
                     observer.unobserve(entry.target);
                 }
+                // else {
+                //     setIsVisible(false); // Reset isVisible state when element goes out of view
+                // }
             });
         });
     
@@ -26,7 +29,10 @@ const Body = () => {
 
 
     return (
-        <div ref={headerRef} className={`body ${isVisible ? 'animate' : ''}`} >
+        <div 
+        ref={headerRef} 
+        className={`body ${isVisible ? 'animate' : ''}`} 
+        >
             <h1 className="slide-in-from-left">Digital First for the Construction Industry</h1>
 
             <h3 className="slide-in-from-right animate-on-scroll">Data Analytics</h3>

@@ -22,10 +22,13 @@
 
 .header {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  height: 100vh;
   // padding: 20px;
   background-color: #374355;
+  // border: 2px solid green;
   color: white;
 
   // .animate  .popup-text {
@@ -56,6 +59,7 @@
     // display: flex;
     // align-items: center;
     // margin-right: 20px;
+    // border: 2px solid green;
 
     .logo {
       width: 250px;
@@ -81,8 +85,9 @@
   .content-container {
     flex: 1;
     text-align: left;
-    margin-right: 20px;
-    margin: 20px;
+    // margin-right: 20px;
+    // margin: 20px;
+    // border: 2px solid red;
 
     .main-heading {
       font-size: 48px;
@@ -102,11 +107,14 @@
     .contact-info {
       font-size: 14px;
       color: white;
+      margin-top: 30px;
       text-decoration: underline;
     }
 
     .header-image {
       width: 200px;
+      margin-bottom: 0;
+      align-self: flex-end;
       /* Adjust size as needed */
       // height: auto;
     }
@@ -173,6 +181,9 @@
 
 /* Adjustments for tablet screens */
 @media (min-width: 769px) and (max-width: 1024px) {
+  .header {
+    height: auto;
+  }
   .logo {
     width: 150px;
     /* Adjust size as needed for tablets */
@@ -189,7 +200,7 @@
   }
 
   .header-image {
-    width: 80%;
+    width: 70%;
     /* Adjust size as needed for tablets */
     margin: auto;
   }

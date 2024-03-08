@@ -1,7 +1,7 @@
 .popup-text {
     // display: inline-block;
     font-size: 24px;
-    padding: 10px;
+    // padding: 10px;
     background-color: none;
     animation: pop-up 2s ease-in-out forwards;
 }
@@ -69,6 +69,7 @@
 .integration {
     background-color: #374355;
     color: snow;
+    // height: 100vh;
     &.animate{
         animation: pop-up 2s ease-in-out forwards;
     }
@@ -87,6 +88,7 @@
 .integration > p {
     font-size: 20px;
     text-align: right;
+    // border: 2px solid red;
     margin: 50px;
     padding: 30px 20px;
     // text-align: justify;

@@ -14,7 +14,10 @@ const Header = () => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
                     setIsVisible(true);
-                    observer.unobserve(entry.target);
+                    // observer.unobserve(entry.target);
+                }
+                else {
+                    setIsVisible(false); // Reset isVisible state when element goes out of view
                 }
             });
         });
@@ -28,13 +31,14 @@ const Header = () => {
 
     return (
         <header ref={headerRef} className={`header ${isVisible ? 'animate' : ''}`}>
-            <div className="name-image">
-                <div className="content-container">
-                    <div className="logo-container">
+            <div className="logo-container">
                         <img src={logo} alt="Company Logo" className="logo" />
                     </div>
-                    <h2 className="main-heading popup-text">Data Analytics and AI for the Construction Industry</h2>
-                    <h3 className="sub-heading typewriter-text">Make Data-Driven Decisions</h3>
+            <div className="name-image">
+                <div className="content-container">
+                    
+                    <h2 className="main-heading popup-text">Data Analytics and AI <br/> for the Construction <br/> Industry</h2>
+                    <h3 className="sub-heading typewriter-text">Make Data-Driven <br/> Decisions</h3>
                     <p className="contact-info">SCHEDULE A CALL</p>
                 </div>
                 <img src={image1} alt="Header Image" className="header-image popup-text" width="700px" />
