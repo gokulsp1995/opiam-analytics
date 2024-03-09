@@ -44,6 +44,21 @@
       opacity: 1; /* Text fades out */
     }
   }
+  @keyframes riseIn {
+    0% {
+      opacity: 0;
+      transform: translateY(100px); // Adjust the distance from which the element rises
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .rise-in {
+    animation: riseIn 0.5s ease forwards; // Adjust the duration and timing function as needed
+  }
+  
   
   /* Apply the animation to the text */
   .fade-in-out {
@@ -92,6 +107,10 @@
         align-items: center;
         width: 90%;
         margin: auto;
+
+        p{
+          font-size: 18px;
+        }
     }
     .problem > .typewriter-text {
         font-size: 24px;
@@ -103,7 +122,7 @@
         margin: auto;
         height: auto;
         img{
-            width: 250px;
+            width: 300px;
             margin: 20px auto;
         }
     }
