@@ -2,8 +2,8 @@
     // display: inline-block;
     // font-size: 12px;
     // padding: 10px;
-    background-color: transparent;
-    animation: pop-up 1s ease-in-out forwards;
+    // background-color: transparent;
+    // animation: pop-up 1s ease-in-out forwards;
   }
   
   @keyframes pop-up {
@@ -18,10 +18,10 @@
   
   .typewriter-text {
     
-    overflow: hidden; /* Hide overflow text */
-    border-right: 2px solid white; /* Add a border for the typewriter effect */
-    white-space: nowrap; /* Prevent wrapping */
-    animation: typewriter 1s steps(40) reverse;
+    // overflow: hidden; /* Hide overflow text */
+    // border-right: 2px solid white; /* Add a border for the typewriter effect */
+    // white-space: nowrap; /* Prevent wrapping */
+    // animation: typewriter 1s steps(40) reverse;
   }
   
   @keyframes typewriter {
@@ -81,9 +81,9 @@
     margin: auto;
     padding: 30px ;
     // height: 100vh;
-    &.animate{
-        animation: slideInFromLeft 2s ease-in-out forwards;
-    }
+    // &.animate{
+    //     animation: slideInFromLeft 2s ease-in-out forwards;
+    // }
     p{
         font-size: 18px;
         width: 70%;
