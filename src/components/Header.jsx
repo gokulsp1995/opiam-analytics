@@ -30,7 +30,8 @@ const Header = () => {
     }, []);
 
     return (
-        <header ref={headerRef} className={`header ${isVisible ? 'animate' : ''}`}>
+        <header ref={headerRef} className="header">
+        {/* {`header ${isVisible ? 'animate' : ''}`} */}
             <div className="logo-container">
                     <img src={logo} alt="Company Logo" className="logo" />
                     <div class="navbar-nav ms-auto p-4 p-lg-0">
@@ -43,11 +44,11 @@ const Header = () => {
             <div className="name-image">
                 <div className="content-container">
 
-                    <h2 className="main-heading popup-text">Data Analytics and AI <br /> for the Construction <br /> Industry</h2>
-                    <h3 className="sub-heading typewriter-text">Make Data-Driven <br /> Decisions</h3>
+                    <h2 className="main-heading">Data Analytics and AI <br /> for the Construction <br /> Industry</h2>
+                    <h3 className="sub-heading">Make Data-Driven <br /> Decisions</h3>
                     <p className="contact-info">SCHEDULE A CALL</p>
                 </div>
-                <img src={image1} alt="Header Image" className="header-image popup-text" width="690px" />
+                <img src={image1} alt="Header Image" className="header-image" width="690px" />
             </div>
         </header>
     );

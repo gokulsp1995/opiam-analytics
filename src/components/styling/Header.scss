@@ -29,31 +29,7 @@
   // flex: 1; 
   // padding: 20px;
   background-color: #374355;
-  // border: 2px solid green;
   color: white;
-
-  // .animate  .popup-text {
-  //   animation: pop-up 1s ease-in-out forwards;
-  //   background-color: none;
-  // }
-  
-  // .animate  .typewriter-text {
-  //   animation: typewriter 1s steps(40) forwards;
-  //   overflow: hidden;
-  //   border-right: 2px solid white;
-  //   white-space: nowrap;
-  // }
-  &.animate   {
-    // animation: pop-up 1s ease-in-out forwards;
-    background-color: none;
-  }
-  
-  // .animate   {
-  //   animation: typewriter 1s steps(40) forwards;
-  //   overflow: hidden;
-  //   border-right: 2px solid white;
-  //   white-space: nowrap;
-  // }
 
 
   .logo-container {
@@ -81,8 +57,6 @@
       // height: auto;
       // margin-right: 10px;
     }
-
-
   }
 
   .name-image {
@@ -153,7 +127,14 @@
       margin: 20px;
       padding-right: 0px;
 
+      .sub-heading {
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 10px;
+        // padding-left: 10px;
+      }
       .main-heading {
+        display: block;
         font-size: 32px;
         font-weight: bold;
         line-height: 1.2;
@@ -161,36 +142,25 @@
         // word-wrap: break-word; 
         // text-wrap: wrap;
       }
-
-      .sub-heading {
-        font-size: 24px;
-        font-weight: 300;
-        margin-bottom: 10px;
-        padding-left: 10px;
-      }
-
       .contact-info {
         font-size: 14px;
         color: white;
         text-decoration: underline;
-        padding-left: 10px;
+        // padding-left: 10px;
       }
-
-
       .logo {
         width: 200px;
         /* Adjust size as needed */
       }
     }
-    
   }
   .navbar-nav{
     display: none;
   }
-
-
+  
+  
   .header-image {
-    width: 360px;
+    width: 90%;
     margin: auto;
     margin-left: 20px;
     // margin-left: 10px;
@@ -221,6 +191,9 @@
   .main-heading {
     font-size: 42px;
     /* Adjust font size for tablets */
+  }
+  .main-heading1{
+    display: none;
   }
 
   .sub-heading {
