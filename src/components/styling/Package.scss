@@ -121,6 +121,11 @@
     // text-align: justify;
 
 }
+.three-para element {
+  &.rise-in {
+    animation: riseIn 2s ease forwards;
+}
+}
 .quote {
     font-size: 36px;
     font-weight: 300;

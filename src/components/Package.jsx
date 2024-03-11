@@ -22,7 +22,8 @@ const Package = () => {
         };
     }, []);
     return (
-        <div ref={headerRef} className={`package ${isVisible ? 'animate' : ''}`}>
+        <div ref={headerRef} className="package">
+         {/* {`package ${isVisible ? 'animate' : ''}`} */}
             <div className="package-text">
                 <h1 className="typewriter-text">Our Packages</h1>
                 <h3>Choose from our affordable and customizable packages.</h3>

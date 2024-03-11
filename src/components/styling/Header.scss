@@ -57,10 +57,23 @@
 
 
   .logo-container {
-    // display: flex;
-    // align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     // margin-right: 20px;
     // border: 2px solid green;
+
+    .navbar-nav{
+      // align-self: flex-end;
+      
+      a{
+        padding: 10px 20px;
+        font-size: 20px;
+      }
+    }
 
     .logo {
       width: 250px;
@@ -169,8 +182,11 @@
         /* Adjust size as needed */
       }
     }
+    
   }
-
+  .navbar-nav{
+    display: none;
+  }
 
 
   .header-image {
@@ -193,6 +209,9 @@
 @media (min-width: 769px) and (max-width: 1024px) {
   .header {
     height: auto;
+  }
+  .navbar-nav{
+    display: none;
   }
   .logo {
     width: 150px;

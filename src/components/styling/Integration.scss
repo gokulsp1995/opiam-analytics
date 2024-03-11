@@ -3,7 +3,7 @@
     font-size: 24px;
     // padding: 10px;
     background-color: none;
-    animation: pop-up 2s ease-in-out forwards;
+    animation: pop-up 1s ease-in-out forwards;
 }
 
 @keyframes pop-up {
@@ -70,7 +70,7 @@
     background-color: #374355;
     color: snow;
     &.animate{
-        animation: pop-up 2s ease-in-out forwards;
+        animation: pop-up 1s ease-in-out forwards;
     }
 }
 
