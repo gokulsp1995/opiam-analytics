@@ -29,14 +29,14 @@ const Package = () => {
                 <h3>Choose from our affordable and customizable packages.</h3>
             </div>
             <div className="three-para">
-                <div className={`element ${isVisible ? 'rise-in' : ''}`}>
+                <div className={`element1 ${isVisible ? 'rise-in' : ''}`}>
                     <h1>Foundation</h1>
                     <ul>
                         <li>Basic package</li>
                         <li>Pre-Built Analytical Dashboards</li>
                     </ul>
                 </div>
-                <div className={`element ${isVisible ? 'rise-in' : ''}`}>
+                <div className={`element2 ${isVisible ? 'rise-in' : ''}`}>
                     <h1>Solution</h1>
                     <ul>
                         <li>Targeted package</li>
@@ -44,7 +44,7 @@ const Package = () => {
                         <li>Functional AI Agent</li>
                     </ul>
                 </div>
-                <div className={`element ${isVisible ? 'rise-in' : ''}`}>
+                <div className={`element3 ${isVisible ? 'rise-in' : ''}`}>
                     <h1>Digit-All</h1>
                     <ul>
                         <li>Full package</li>

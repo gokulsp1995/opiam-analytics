@@ -121,10 +121,20 @@
     // text-align: justify;
 
 }
-.three-para element {
-  &.rise-in {
-    animation: riseIn 2s ease forwards;
+.three-para .element1 {
+    &.rise-in {
+      animation: riseIn 1s ease forwards;
+  }
 }
+.three-para .element2 {
+    &.rise-in {
+      animation: riseIn 2s ease forwards;
+  }
+}
+.three-para .element3 {
+    &.rise-in {
+      animation: riseIn 2.5s ease forwards;
+  }
 }
 .quote {
     font-size: 36px;
