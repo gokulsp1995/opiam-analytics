@@ -44,20 +44,6 @@
       opacity: 1; /* Text fades out */
     }
   }
-  @keyframes riseIn {
-    0% {
-      opacity: 0;
-      transform: translateY(100px); // Adjust the distance from which the element rises
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  .rise-in {
-    animation: riseIn 0.5s ease forwards; // Adjust the duration and timing function as needed
-  }
   
   
   /* Apply the animation to the text */
@@ -69,7 +55,7 @@
     background-color: #374355;
     color: snow;
     padding: 30px 0 20px 0;
-    height: 100vh;
+    // height: 100vh;
     &.animate {
         animation: fadeInOut 3s ease-in-out forwards;
     }

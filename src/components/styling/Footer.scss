@@ -16,6 +16,9 @@
     text-align: left;
     font-size: 20px;
     font-weight: 200;
+    p, a{
+      font-size: 30px;
+    }
   }
   .footer-content {
     display: flex;
@@ -73,6 +76,10 @@
 
 
   @media (max-width: 768px) {
+    .social-icons{
+      align-items: center;
+      margin: auto;
+    }
     .footer{
       width: 100%;
       height: auto;
@@ -101,6 +108,13 @@
     }
     .address-content {
       text-align: center;
+      margin: auto;
+
+      p, a{
+        font-size: 18px;
+        text-align: center;
+        margin: auto;
+      }
     }
     
     .name-image {

@@ -17,7 +17,7 @@ h4 {
 .team{
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    // height: 100vh;
     // &.animate{
     //     animation: pop-up 2s ease-in-out forwards;
     // }
@@ -54,7 +54,7 @@ h4 {
         margin: 10px;
     }
     .team-img img{
-        width: 420px;
+        width: 380px;
         // margin-top: 0px ;
     }
     .team-img {
