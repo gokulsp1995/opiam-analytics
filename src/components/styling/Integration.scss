@@ -74,9 +74,9 @@
     background-color: #374355;
     color: snow;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    // padding: 20px;
     &.animate {
         animation: pop-up 1s ease-in-out forwards;
     }
@@ -88,7 +88,7 @@
     // margin-top: 50px;
     // margin-left: 10%;
     font-weight: 400;
-    padding: 20px 20px 0px 70px;
+    padding: 20px 20px 0px 0px;
     font-size: 52px;
     width: 120%;
 
@@ -96,7 +96,7 @@
 
 .integration p {
     font-size: 30px;
-    padding: 20px 20px 0px 70px;
+    padding: 20px 20px 0px 0px;
     text-align: left;
     font-weight: 400;
     // border: 2px solid red;
@@ -109,6 +109,7 @@
     position: relative;
     width: 750px;
     height: 650px;
+    margin: 50px 70px 50px 0;
 }
 .first {
     position: absolute;
@@ -120,7 +121,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    transform: translateY(100%) rotate(-45deg);
+    transform: translateY(100%) rotate(0deg);
   }
 
 .container-img > img {
@@ -130,6 +131,7 @@
 
 .header-para {
     width: 40%;
+    margin: 0px 40px 20px 70px;
 }
 
 // .first {
@@ -144,17 +146,18 @@
     .integration h1 {
         font-size: 28px;
         font-weight: 400;
-        width: 100%;
-        padding: 20px 20px 0px 20px;
+        width: 90%;
+        padding: 0px;
     }
 
     .header-para {
-        width: 100%;
+        width: 90%;
     }
     .container-img {
         position: relative;
-        width: 100%;
+        width: 90%;
         height: 720px;
+        margin: auto;
     }
     .integration {
         width: 100%;
@@ -169,9 +172,9 @@
 
         p {
             text-align: justify;
-            width: 100%;
+            width: 90%;
             font-size: 18px;
-            padding: 20px 20px 0px 20px;
+            padding: 0;
         }
     }
     
@@ -199,20 +202,20 @@
         p {
             text-align: justify;
             width: 100%;
-            font-size: 18px;
+            font-size: 24px;
             padding: 20px 20px 0px 20px;
         }
     }
 
     .integration h1 {
-        font-size: 34px;
+        font-size: 40px;
         font-weight: 400;
         width: 100%;
         padding: 20px 20px 0px 20px;
     }
 
     .header-para {
-        width: 100%;
+        width: 90%;
     }
 
     .first {
@@ -226,7 +229,13 @@
     }
 
     .integration>img {
-        width: 400px;
+        width: 300px;
         margin: 20px;
+    }
+    .container-img {
+        position: relative;
+        width: 90%;
+        height: 720px;
+        margin: auto;
     }
 }

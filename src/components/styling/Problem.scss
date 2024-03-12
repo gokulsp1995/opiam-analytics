@@ -151,7 +151,7 @@
         width: 100%;
         margin: auto;
         img{
-            width: 250px;
+            width: 400px;
             margin: 20px auto;
         }
         h1{
@@ -159,19 +159,25 @@
             word-wrap: break-word;
         }
     }
-    
+    .problem-div {
+      display: none;
+    }
     
     .problem-div-resp{
-        display: none;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
    
     .problem-div-resp > div {
-        width: 300px;
+        // width: 300px;
     }
     .problem-div-resp h2 {
-        color: #ebb5b5;
+        color: white;
+        width: 80%;
+        span {
+          color: #ebb5b5;
+        }
     }
 }
