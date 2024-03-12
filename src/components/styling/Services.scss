@@ -129,7 +129,6 @@
         align-items: center;
         height: auto;
         justify-content: center;
-        border: 2px solid black;
         text-align: center;
         padding: 20px 10px;
         img{
@@ -146,8 +145,29 @@
             text-align: center;
         }
         .text-right{
-          margin: 0;
+          // margin: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0px;
+
+          button {
+            font-size: 20px;
+            padding: 15px 20px;
+            border-radius: 40px;
+            font-weight: 700;
+            cursor: pointer;
+            background-color: #7aa8cf;
+            border: none;
+            color: white;
+            margin: 10px auto;
+          }
+          .leverage{
+            text-align: center;
+            margin: auto;
+          }
         }
+        
     }
     
     
@@ -157,16 +177,41 @@
     .services {
         width: 80%;
         margin: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     .services h1 {
         font-size: 28px;
         font-weight: 400;
+        text-align: center;
+        margin-bottom: 20px;
     }
+    
     .services {
         width: 100%;
-        margin: auto;
+        margin: 10px auto;
         img{
-            width: 60%;
+            width: 80%;
+            margin: auto;
+        }
+        .text-right{
+          margin: 0;
+          align-items: center;
+    
+          button {
+            font-size: 20px;
+            padding: 15px 20px;
+            border-radius: 40px;
+            font-weight: 700;
+            cursor: pointer;
+            background-color: #7aa8cf;
+            border: none;
+            color: white;
+            margin: 10px auto;
+          }
         }
     }
+    
 }
