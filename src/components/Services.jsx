@@ -30,7 +30,8 @@ import React, { useState, useEffect, useRef} from "react";
         <div className="text-right">
             <h1 className="red-header">Know More About Us</h1>
             <h1 className="leverage slide-in-from-right">Leverage our technology expertise <br /> and our 4 decade of domain <br />expertise to provide you with<br />holistic solutions</h1>
-            <a href="">SERVICES</a>
+            {/* <a href="">SERVICES</a> */}
+            <button className="contact-button">Contact Us</button>
         </div>
     </div>
     

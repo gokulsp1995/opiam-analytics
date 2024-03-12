@@ -16,7 +16,7 @@ function App() {
         <Body />
         <Integration />
         <Team />
-        <Package />
+        {/* <Package /> */}
         <Problem />
         <Services />
       <Footer />

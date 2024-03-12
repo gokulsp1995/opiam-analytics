@@ -36,11 +36,12 @@ const Footer = () => {
                 <div className="footer-content">
                     <div className="left-content">
                         <h2 className="heading typewriter-text">Schedule a <br/>Demo</h2>
-                        <img src={logo} alt="logo" />
+                        {/* <img src={logo} alt="logo" /> */}
+                        <button>Book a Demo</button>
                     </div>
                         <div className="right-content">
                             <div className="address-content">
-                                <p>123 Anywhere St., Any City, ST 12345 123 <br />123-456-7890</p>
+                                <p>Opiam Analytics, Panampilly Nagar, <br />Cochin, Kerala, India  <br />+91736682079</p>
                                 <a href="www.opiamanalytics.com">www.opiamanalytics.com</a>
                             </div>
                             <div className="social-icons">

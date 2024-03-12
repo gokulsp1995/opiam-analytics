@@ -30,6 +30,7 @@
   // padding: 20px;
   background-color: #374355;
   color: white;
+  
 
 
   .logo-container {
@@ -44,6 +45,7 @@
 
     .navbar-nav{
       // align-self: flex-end;
+      margin-right: 70px;
       
       a{
         padding: 10px 20px;
@@ -102,15 +104,14 @@
       text-decoration: underline;
     }
 
-    .header-image {
-      // width: 700px;
-      margin-bottom: 0;
-      align-self: flex-end;
-      
-      /* Adjust size as needed */
-      // height: auto;
-    }
+    
   }
+}
+.header-image {
+  width: 700px;
+  margin-bottom: 0;
+  margin-right: 70px;
+  align-self: flex-end;
 }
 
 /* Adjustments for smaller screens (smartphones) */

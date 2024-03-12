@@ -77,12 +77,14 @@
         font-weight: 300;
         color: #7aa8cf;
         text-align: left;
-        margin: auto;
+        // margin: auto;
         margin-bottom: 50px;
         
     }
     .red-header{
       color: rgba(149, 10, 50, 0.768);
+      font-size: 50px;
+      font-weight: 400;
     }
     .leverage{
       line-height: 92%;
@@ -97,6 +99,21 @@
     }
     .text-right{
       margin: 40px 70px 40px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      
+      button {
+        font-size: 30px;
+        padding: 15px 20px;
+        border-radius: 40px;
+        font-weight: 700;
+        cursor: pointer;
+        background-color: #7aa8cf;
+        border: none;
+        color: white;
+      }
     }
     img{
         width: 40%;
