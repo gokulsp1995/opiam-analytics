@@ -62,21 +62,32 @@
     h1{
         font-weight: 400;
         font-size: 42px;
+        margin-bottom: 50px;
     }
 }
 .problem-div{
     display: flex;
     justify-content: space-around;
+    margin: 10px 50px;
     p{
       font-size: 18px;
     }
+    img{
+      height: 350px;
+      width: 450px;
+    }
 }
 .problem-div > div {
-    width: 300px;
+    // width: 300px;
 }
 .problem-div h2 {
-    color: #ebb5b5;
+    color: white;
     font-size: 24px;
+    width: 400px;
+    text-align: left;
+    span {
+      color: #ebb5b5;
+    }
 }
 .problem-div-resp{
     display: none;
@@ -119,6 +130,7 @@
         h1{
             font-weight: 300;
             font-size: 30px;
+            margin-bottom: 10px;
         }
     }
     
@@ -126,7 +138,10 @@
         width: 300px;
     }
     .problem-div-resp h2 {
-        color: #ebb5b5;
+        color: white;
+        span {
+          color: #ebb5b5;
+        }
     }
     
     }
@@ -136,7 +151,7 @@
         width: 100%;
         margin: auto;
         img{
-            width: 300px;
+            width: 250px;
             margin: 20px auto;
         }
         h1{

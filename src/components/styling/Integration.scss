@@ -37,107 +37,156 @@
         border-right: none;
     }
 }
+
 @keyframes slideInFromLeft {
     0% {
-      transform: translateX(-100%);
-      opacity: 0;
+        transform: translateX(-100%);
+        opacity: 0;
     }
+
     100% {
-      transform: translateX(0);
-      opacity: 1;
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
-  
-  .slide-in-from-left {
+}
+
+.slide-in-from-left {
     animation: slideInFromLeft 1s ease-in-out forwards;
-  }
-  @keyframes slideInFromRight {
+}
+
+@keyframes slideInFromRight {
     0% {
-      transform: translateX(100%);
-      opacity: 0;
+        transform: translateX(100%);
+        opacity: 0;
     }
+
     100% {
-      transform: translateX(0);
-      opacity: 1;
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
-  
-  .slide-in-from-right {
+}
+
+.slide-in-from-right {
     animation: slideInFromRight 1s ease-in-out forwards;
-  }
+}
 
 .integration {
     background-color: #374355;
     color: snow;
-    &.animate{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    &.animate {
         animation: pop-up 1s ease-in-out forwards;
     }
 }
 
-.integration > h1 {
+.integration h1 {
     text-align: left;
     // margin: 20px;
     // margin-top: 50px;
     // margin-left: 10%;
     font-weight: 400;
     padding: 20px 20px 0px 70px;
-    font-size: 50px;
+    font-size: 52px;
+    width: 120%;
+
 }
 
-.integration > p {
+.integration p {
     font-size: 30px;
-    text-align: right;
+    padding: 20px 20px 0px 70px;
+    text-align: left;
+    font-weight: 400;
     // border: 2px solid red;
     right: 0;
-    padding: 10px 10px;
+    // padding: 10px 10px;
     // text-align: justify;
 }
 
-.integration > img {
-    width: 350px;
-    margin: 20px;
+.container-img {
+    position: relative;
+    width: 750px;
+    height: 650px;
 }
-
 .first {
-    padding-top: 150px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .second {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateY(100%) rotate(-45deg);
+  }
+
+.container-img > img {
+    width: 400px;
+    // margin: 20px;
 }
 
-.second {
-    padding-bottom: 150px;
+.header-para {
+    width: 40%;
 }
+
+// .first {
+//     padding-top: 150px;
+// }
+
+// .second {
+//     padding-bottom: 150px;
+// }
 
 @media (max-width: 768px) {
-    .integration>h1 {
-        font-size: 34px;
+    .integration h1 {
+        font-size: 28px;
         font-weight: 400;
+        width: 100%;
+        padding: 20px 20px 0px 20px;
     }
 
+    .header-para {
+        width: 100%;
+    }
+    .container-img {
+        position: relative;
+        width: 100%;
+        height: 720px;
+    }
     .integration {
         width: 100%;
         margin: auto;
+        flex-direction: column;
+
         // padding: 50px;
         img {
-            width: 90%;
-            margin: 10px;
+            width: 80%;
+            // margin: 10px;
         }
-        p{
+
+        p {
             text-align: justify;
+            width: 100%;
             font-size: 18px;
+            padding: 20px 20px 0px 20px;
         }
     }
+    
+    // .first {
+    //     padding-top: 0;
+    //     // margin-top: 0;
+    //     padding-left: 150px;
+    //     padding-right: 10px;
+    // }
 
-    .first {
-        padding-top: 0;
-        // margin-top: 0;
-        padding-left: 150px;
-        padding-right: 10px;
-    }
-
-    .second {
-        padding-right: 150px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-    }
+    // .second {
+    //     padding-right: 150px;
+    //     padding-bottom: 10px;
+    //     padding-left: 10px;
+    // }
 
 }
 
@@ -145,6 +194,25 @@
     .integration {
         width: 100%;
         margin: auto;
+        flex-direction: column;
+
+        p {
+            text-align: justify;
+            width: 100%;
+            font-size: 18px;
+            padding: 20px 20px 0px 20px;
+        }
+    }
+
+    .integration h1 {
+        font-size: 34px;
+        font-weight: 400;
+        width: 100%;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .header-para {
+        width: 100%;
     }
 
     .first {
