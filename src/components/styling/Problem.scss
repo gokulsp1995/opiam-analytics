@@ -73,8 +73,8 @@
       font-size: 18px;
     }
     img{
-      height: 350px;
-      width: 450px;
+      width: 320px;
+      height: 280px;
     }
 }
 .problem-div > div {
@@ -83,8 +83,9 @@
 .problem-div h2 {
     color: white;
     font-size: 24px;
-    width: 400px;
+    width: 320px;
     text-align: left;
+    margin: auto;
     span {
       color: #ebb5b5;
     }
@@ -152,7 +153,7 @@
         width: 100%;
         margin: auto;
         img{
-            width: 400px;
+            width: 60%;
             margin: 20px auto;
         }
         h1{
@@ -177,6 +178,7 @@
     .problem-div-resp h2 {
         color: white;
         width: 80%;
+        margin: auto;
         span {
           color: #ebb5b5;
         }

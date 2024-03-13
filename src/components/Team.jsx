@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef} from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./styling/Team.scss";
 import image3 from "../images/3.jpg"
 import image4 from "../images/4.jpg"
@@ -11,31 +11,31 @@ const Team = () => {
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-                setIsVisible(true);
-                observer.unobserve(entry.target);
-            }
-        });
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(entry.target);
+        }
+      });
     });
 
     observer.observe(headerRef.current);
 
     return () => {
-        observer.disconnect();
+      observer.disconnect();
     };
-}, []);
-    return (
+  }, []);
+  return (
     <div ref={headerRef} className={`team ${isVisible ? 'animate' : ''}`}>
       <div className="team-text">
-            <h1 className="enhance">Enhance the <br/> Capability of your IT <br/>Team</h1>
-            <h4 className="fade-in-out">We collaborative with your IT teams, bringing together Business Analysts, DataScientists, Domain Experts, and Generative AI Specialists.</h4>
-            <h4 className="gray-h4 fade-in-out">Together, we work to embed next-generation technologies into your business, ensuring a smooth transition and immediate value addition without overhauling your existing infrastructure.</h4>
-      </div>  
+        <h1 className="enhance">Enhance the Capability of<br /> your Digital Team</h1>
+        <h4 className="fade-in-out">We collaborative with your IT teams, bringing together Business Analysts, Data Scientists, Domain Experts, and Generative AI Specialists.</h4>
+        <h4 className="gray-h4 fade-in-out">Together, we work to embed next-generation technologies into your business, ensuring a smooth transition and immediate value addition without overhauling your existing infrastructure.</h4>
+      </div>
       <div className="team-img">
-        <img src={image3} alt="image3" className="popup-text"/>
-        <img src={image4} alt="image4" className="popup-text snd"/>
-        <img src={image5} alt="image5" className="popup-text trd"/>
+        <img src={image3} alt="image3" className="popup-text fst" />
+        <img src={image4} alt="image4" className="popup-text snd" />
+        <img src={image5} alt="image5" className="popup-text trd" />
       </div>
     </div>
   );
