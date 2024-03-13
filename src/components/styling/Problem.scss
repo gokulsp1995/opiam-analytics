@@ -83,11 +83,13 @@
 .problem-div h2 {
     color: white;
     font-size: 24px;
-    width: 320px;
+    width: 300px;
     text-align: left;
+    font-weight: 400;
     margin: auto;
     span {
       color: #ebb5b5;
+      font-weight: 700;
     }
 }
 .problem-div-resp{
@@ -129,8 +131,8 @@
         color: snow;
         padding: 30px;
         h1{
-            font-weight: 300;
-            font-size: 30px;
+            font-weight: 400;
+            font-size: 28px;
             margin-bottom: 10px;
         }
     }
@@ -141,8 +143,10 @@
     .problem-div-resp h2 {
         color: white;
         font-size: 24px;
+        font-weight: 400;
         span {
           color: #ebb5b5;
+          font-weight: 700;
         }
     }
     
