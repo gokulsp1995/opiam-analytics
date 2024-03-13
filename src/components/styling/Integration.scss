@@ -91,9 +91,7 @@
     padding: 20px 20px 0px 0px;
     font-size: 48px;
     width: 100%;
-
 }
-
 .integration p {
     font-size: 30px;
     padding: 20px 20px 0px 0px;
@@ -104,11 +102,9 @@
     // padding: 10px 10px;
     // text-align: justify;
 }
-
 .container-img {
     position: relative;
     width: 750px;
-
     height: 650px;
     margin: 50px 70px 50px 0;
     img {
@@ -167,7 +163,7 @@
 
 @media (max-width: 768px) {
     .integration h1 {
-        font-size: 28px;
+        font-size: 24px;
         font-weight: 400;
         width: 90%;
         padding: 0px;
@@ -178,8 +174,8 @@
     }
     .container-img {
         position: relative;
-        width: 90%;
-        height: 720px;
+        width: 80%;
+        // height: 620px;
         margin: auto;
     }
     .integration {
@@ -189,14 +185,14 @@
 
         // padding: 50px;
         img {
-            width: 80%;
+            width: 75%;
             // margin: 10px;
         }
 
         p {
             text-align: justify;
             width: 90%;
-            font-size: 18px;
+            font-size: 16px;
             padding: 0;
         }
     }
