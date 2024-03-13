@@ -89,8 +89,8 @@
     // margin-left: 10%;
     font-weight: 400;
     padding: 20px 20px 0px 0px;
-    font-size: 52px;
-    width: 120%;
+    font-size: 50px;
+    width: 100%;
 
 }
 
@@ -108,8 +108,12 @@
 .container-img {
     position: relative;
     width: 750px;
+
     height: 650px;
     margin: 50px 70px 50px 0;
+    img {
+        // width: 300px;
+    }
 }
 .first {
     position: absolute;
@@ -193,7 +197,7 @@
 
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1224px) {
     .integration {
         width: 100%;
         margin: auto;
@@ -234,8 +238,8 @@
     }
     .container-img {
         position: relative;
-        width: 90%;
+        width: 60%;
         height: 720px;
-        margin: auto;
+        margin: 20px auto;
     }
 }
