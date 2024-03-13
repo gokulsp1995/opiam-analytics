@@ -1,18 +1,18 @@
 
 
 .team-text > h1 {
-    font-size: 50px;
+    font-size: 42px;
     font-weight: 400;
     color: #a53656;
     text-wrap: wrap;
 }
 .team-text {
-    width: 45%;
+    width: 50%;
     text-align: justify;
     margin: 0px 0px 30px 70px;
 }
 h4 {
-    font-size: 27px;
+  font-size: 24px;
 }
 .team{
     display: flex;
@@ -46,9 +46,7 @@ h4 {
     margin: 20px 10px;
     // position: absolute;
 }
-.gray-h4{
-    color: gray;
-}
+
 @media (max-width: 768px) {
     .team-text > h1 {
         font-size: 30px;
