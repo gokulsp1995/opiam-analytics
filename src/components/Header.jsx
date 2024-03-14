@@ -43,7 +43,7 @@ const Header = () => {
             </div>
             <div className="name-image">
                 <div className="content-container">
-                    <h2 className="main-heading">Data Analytics and AI <br /> for the Construction <br /> Industry</h2>
+                    <h1 className="main-heading">Data Analytics and AI <br /> for the Construction <br /> Industry</h1>
                     <h3 className="sub-heading">Make Data-Driven <br /> Decisions</h3>
                     <p className="contact-info">SCHEDULE A CALL</p>
                 </div>

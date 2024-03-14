@@ -71,7 +71,7 @@
   }
   
   
-.body > h1 {
+.body > h2 {
     font-size: 48px;
     font-weight: 400;
     color: #a53656;
@@ -92,8 +92,23 @@
 .body > h3 {
     font-size: 36px;
 }
+@media (min-width: 1025px) and (max-width: 1300px) {
+  .body > h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #a53656;
+}
+.body > h3 {
+  font-size: 28px;
+}
+.body p {
+  font-size: 24px;
+}
+
+
+}
 @media (max-width: 768px) {
-    .body > h1 {
+    .body > h2 {
         font-size: 30px;
         text-wrap: wrap;
         font-weight: 400;

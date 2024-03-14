@@ -28,8 +28,8 @@ import React, { useState, useEffect, useRef} from "react";
     <div ref={headerRef} className={`services ${isVisible ? 'animate' : ''}`}>
         <img src={image6} alt="image6" className="popup-text"/>
         <div className="text-right">
-            <h1 className="red-header">Know More About Us</h1>
-            <h1 className="leverage slide-in-from-right">Leverage our technology expertise <br /> and our four decade of domain <br />expertise to provide you with<br />holistic solutions</h1>
+            <h2 className="red-header">Know More About Us</h2>
+            <h3 className="leverage slide-in-from-right">Leverage our technology expertise <br /> and our four decade of domain <br />expertise to provide you with<br />holistic solutions</h3>
             {/* <a href="">SERVICES</a> */}
             <button className="contact-button">Contact Us</button>
         </div>

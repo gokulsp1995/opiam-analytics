@@ -26,40 +26,35 @@ const Problem = () => {
     }, []);
     return (
         <div ref={headerRef} className={`problem ${isVisible ? 'animate' : ''}`}>
-            <h1 className="typewriter-text">Our Solutions Can Solve Your Problems</h1>
+            <h2 className="typewriter-text">Our Solutions Can Solve Your Problems</h2>
             <div className="problem-div">
                 <div>
                     <img src={image7} alt="image7" width="320px" className="popup-text" />
-                    <h2 className="fade-in-out">Ensure <span>timely delivery of materials</span> with Opiam’s Automated Procurement System which ensures that your project is always on track</h2>
+                    <h3 className="fade-in-out">Ensure <span>timely delivery of materials</span> with Opiam’s Automated Procurement System which ensures that your project is always on track</h3>
 
                 </div>
                 <div>
                     <img src={image8} alt="image8" width="320px" className="popup-text" />
-                    <h2 className="fade-in-out">Use <span>Opiam’s Conversational AI agent</span> to generate report on-the-go from your existing technology infrastructure</h2>
+                    <h3 className="fade-in-out">Use <span>Opiam’s Conversational AI agent</span> to generate report on-the-go from your existing technology infrastructure</h3>
                 </div>
                 <div>
                     <img src={image9} alt="image9" width="320px" className="popup-text" />
-                    <h2 className="fade-in-out">Gain <span>insights into cash flow and cost analysis</span> and prevent project from going over-budget</h2>
+                    <h3 className="fade-in-out">Gain <span>insights into cash flow and cost analysis</span> and prevent project from going over-budget</h3>
                 </div>
             </div>
             <div className="problem-div-resp">
                 <div>
                     <img src={image7} alt="image7" width="300px" className="popup-text" />
-                    <h2 className="fade-in-out">Ensure <span>timely delivery of materials</span> with Opiam’s Automated Procurement System which ensures that your project is always on track</h2>
+                    <h3 className="fade-in-out">Ensure <span>timely delivery of materials</span> with Opiam’s Automated Procurement System which ensures that your project is always on track</h3>
                 </div>
                 <div>
                     <img src={image8} alt="image8" width="300px" className="popup-text" />
-                    <h2 className="fade-in-out">Use <span>Opiam’s Conversational AI agent</span> to generate report on-the-go from your existing technology infrastructure</h2>
+                    <h3 className="fade-in-out">Use <span>Opiam’s Conversational AI agent</span> to generate report on-the-go from your existing technology infrastructure</h3>
                 </div>
                 <div>
                     <img src={image9} alt="image9" width="300px" className="popup-text" />
-                    <h2 className="fade-in-out">Gain <span>insights into cash flow and cost analysis</span> and prevent project from going over-budget</h2>
+                    <h3 className="fade-in-out">Gain <span>insights into cash flow and cost analysis</span> and prevent project from going over-budget</h3>
                 </div>
-
-
-
-
-
             </div>
         </div>
     );

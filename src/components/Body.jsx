@@ -35,7 +35,7 @@ const Body = () => {
         >
             {/* {`${isVisible ? 'slide-in-from-left' : ''}`}  */}
             {/* {`${isVisible ? 'slide-in-from-right' : ''}`}  */}
-            <h1 className={`${isVisible ? 'slide-in-from-left' : ''}`}>Digital First for the Construction Industry</h1>
+            <h2 className={`${isVisible ? 'slide-in-from-left' : ''}`}>Digital First for the Construction Industry</h2>
 
             <h3 className={`${isVisible ? 'slide-in-from-right' : ''}`}>Data Analytics</h3>
             <container><p className={`popup-text ${isVisible ? 'slide-in-from-left' : ''}`}>Dive deep into the heart of your project's data to uncover actionable insights and foresights. Our interconnected <b>series of performance dashboards</b> provide real-time visibility critical project metrics, enabling you identify performance gaps, predict potential delays, optimize costs effectively.</p>

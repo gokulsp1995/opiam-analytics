@@ -82,7 +82,7 @@
     }
 }
 
-.integration h1 {
+.integration h2 {
     text-align: left;
     // margin: 20px;
     // margin-top: 50px;
@@ -149,7 +149,7 @@
         width: 40%;
         margin: 0px 40px 120px 70px;
     }
-    .integration h1 {
+    .integration h2 {
         text-align: left;
         font-weight: 400;
         padding: 20px 20px 0px 0px;
@@ -172,7 +172,7 @@
 }
 
 @media (max-width: 768px) {
-    .integration h1 {
+    .integration h2 {
         font-size: 24px;
         font-weight: 400;
         width: 90%;
@@ -186,17 +186,17 @@
     .container-img {
         position: relative;
         width: 80%;
-        // height: 620px;
         margin: auto;
     }
     .integration {
         width: 100%;
         margin: auto;
         flex-direction: column;
+        // height: 110vh;
 
         // padding: 50px;
         img {
-            width: 75%;
+            width: 80%;
             // margin: 10px;
         }
 
@@ -237,8 +237,8 @@
         }
     }
 
-    .integration h1 {
-        font-size: 40px;
+    .integration h2 {
+        font-size: 42px;
         font-weight: 400;
         width: 100%;
         padding: 20px 20px 0px 20px;

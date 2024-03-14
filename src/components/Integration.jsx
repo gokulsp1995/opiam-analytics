@@ -29,7 +29,7 @@ const Integration = () => {
         <div ref={headerRef} className="integration">
             {/* {`integration ${isVisible ? 'animate' : ''}`} */}
             <div className="header-para">
-                <h1 className="">Build AI and Analytics into <br /> your existing systems  </h1>
+                <h2 className="">Build AI and Analytics into <br /> your existing systems  </h2>
                 <p className="">Your business problems, solutions and possibilities are all there in your organizational data. All you need is AI and Analytics.</p>
                 <p>Our technology experts will develop custom and off the box solutions to suit your organizations requirements, giving you a single source of truth for all your challenges.</p>
             </div>

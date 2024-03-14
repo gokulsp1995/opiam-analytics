@@ -28,7 +28,7 @@ const Team = () => {
   return (
     <div ref={headerRef} className={`team ${isVisible ? 'animate' : ''}`}>
       <div className="team-text">
-        <h1 className="enhance">Enhance the Capability of<br /> your Digital Team</h1>
+        <h2 className="enhance">Enhance the Capability of<br /> your Digital Team</h2>
         <h4 className="fade-in-out">We collaborative with your IT teams, bringing together Business Analysts, Data Scientists, Domain Experts, and Generative AI Specialists.</h4>
         <h4 className="gray-h4 fade-in-out">Together, we work to embed next-generation technologies into your business, ensuring a smooth transition and immediate value addition without overhauling your existing infrastructure.</h4>
       </div>

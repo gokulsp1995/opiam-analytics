@@ -76,13 +76,13 @@
   justify-content: space-between;
   align-items: center;
 
-  h1 {
-    font-size: 42px;
-    font-weight: 300;
+  h3 {
+    font-size: 28px;
+    font-weight: 400;
     color: #7aa8cf;
     text-align: left;
     // margin: auto;
-    margin-bottom: 80px;
+    // margin-bottom: 80px;
   }
 
   // height: 100vh;
@@ -91,14 +91,8 @@
     animation: pop-up 1s ease-in-out forwards;
   }
 
-  .red-header {
-    color: rgba(149, 10, 50, 0.768);
-    font-size: 48px;
-    font-weight: 400;
-  }
-
   .leverage {
-    line-height: 92%;
+    // line-height: 100%;
   }
 
   a {
@@ -116,7 +110,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
+    .red-header {
+      color: rgba(149, 10, 50, 0.768);
+      font-size: 42px;
+      font-weight: 400;
+    }
     button {
       font-size: 24px;
       padding: 15px 20px;
@@ -137,21 +135,25 @@
 
 @media (min-width: 1025px) and (max-width: 1300px) {
   .services {
-    h1 {
-      font-size: 24px;
+    .text-right {
+      .leverage {
+          font-size: 28px;
+          font-weight: 400;
+          color: #7aa8cf;
+          text-align: left;
+          // margin: auto;
+          margin-bottom: 55px;
+    }
+    .red-header{
+      color: rgba(149, 10, 50, 0.768);
+      font-size: 36px;
       font-weight: 400;
-      color: #7aa8cf;
-      text-align: left;
-      // margin: auto;
-      margin-bottom: 50px;
+      margin-top: 20px;
+      
     }
   }
-
-  .red-header {
-    color: rgba(149, 10, 50, 0.768);
-    font-size: 42px;
-    font-weight: 400;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -167,7 +169,7 @@
     padding: 0 10px 20px 10px;
 
     img {
-      width: 90%;
+      width: 80%;
       margin: 0px 40px 0px 40px;
     }
 
@@ -175,17 +177,14 @@
       width: 90%;
     }
 
-    h1 {
-      font-size: 24px;
-      font-weight: 300;
-      margin: 20px;
-      text-align: center;
-    }
-    .red-header {
-      color: rgba(149, 10, 50, 0.768);
-      font-size: 30px;
-      font-weight: 400;
-    }
+    // h2 {
+    //   font-size: 28px;
+    //   font-weight: 300;
+    //   margin: 20px;
+    //   text-align: center;
+    // }
+     
+  
 
     .text-right {
       // margin: 0;
@@ -208,8 +207,19 @@
       }
 
       .leverage {
+        font-size: 20px;
+        font-weight: 400;
+        color: #7aa8cf;
+        text-align: left;
+        // margin: auto;
+        margin-bottom: 55px;
         text-align: center;
         margin: auto;
+  }
+      .red-header {
+        color: rgba(149, 10, 50, 0.768);
+        font-size: 28px;
+        font-weight: 400;
       }
     }
 
@@ -228,7 +238,7 @@
     text-align: center;
   }
 
-  .services h1 {
+  .services h2 {
     font-size: 28px;
     font-weight: 400;
     text-align: center;

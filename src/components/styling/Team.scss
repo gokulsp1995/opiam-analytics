@@ -1,158 +1,204 @@
-
-
-.team-text > h1 {
-    font-size: 42px;
-    font-weight: 400;
-    color: #a53656;
-    text-wrap: wrap;
+.team-text>h2 {
+  font-size: 42px;
+  font-weight: 400;
+  color: #a53656;
+  text-wrap: wrap;
 }
+
 .team-text {
-    width: 50%;
-    text-align: left;
-    margin: 0px 0px 30px 70px;
+  width: 40%;
+  text-align: left;
+  margin: 40px 0px 30px 70px;
 }
 
-.team{
-    display: flex;
-    justify-content: space-between;
-    // height: 100vh;
-    // &.animate{
-    //     animation: pop-up 2s ease-in-out forwards;
-    // }
-    h4 {
-      font-size: 24px;
-      font-weight: 400;
-    }
+.team {
+  display: flex;
+  justify-content: space-between;
+
+  // height: 100vh;
+  // &.animate{
+  //     animation: pop-up 2s ease-in-out forwards;
+  // }
+  h4 {
+    font-size: 24px;
+    font-weight: 400;
+  }
 }
+
 .team-img {
+
   // margin-top: 120px;
   // border: 2px solid red;
   // display: flex;
   // justify-content: center;
   // align-items: center;
-  .fst  {
-    width: 320px;
+  .fst {
+    width: 340px;
     top: 0;
     left: 0;
   }
-  .snd{
-    width: 220px;
+
+  .snd {
+    width: 240px;
   }
-  .trd{
+
+  .trd {
     // margin-right: 250px;
   }
 }
-.team-img img{
-    // width: 300px;
-    // width: 10%;
-    margin: 20px 10px;
-    // position: absolute;
+
+.team-img img {
+  // width: 300px;
+  // width: 10%;
+  margin: 20px 10px;
+  // position: absolute;
+}
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+  .team-text>h2 {
+    font-size: 36px;
+  }
+
+  .team-text {
+    margin: 30px 0px 30px 70px;
+  }
+
+  .team-img {
+    .fst {
+      width: 320px;
+    }
+
+    .snd {
+      width: 220px;
+    }
+  }
+
 }
 
 @media (max-width: 768px) {
-    .team-text > h1 {
-        font-size: 28px;
-        font-weight: 400;
-        text-wrap: wrap;
-        text-align: center;
-    }
-    .team {
-        width: 100%;
-        margin: auto;
-        flex-direction: column;
-        padding: 10px;
-        height: auto;
-        
-    }
-    .team-text {
-        width: 80%;
-        text-align: justify;
-        margin: auto;
-        // margin: 10px;
-    }
-    .team-img img{
-        width: 90%;
-        // margin-top: 0px ;
-    }
-    .team-img {
-      margin-top: 0px;
-    }
-    .team h4 {
-        font-size: 18px;
-    }
-    
-      .team-img img:nth-child(2),
-      .team-img img:nth-child(3) {
-        display: none;
-      }
- }
+  .team-text>h2 {
+    font-size: 24px;
+    font-weight: 400;
+    text-wrap: wrap;
+    text-align: center;
+  }
 
-@media (min-width: 769px) and (max-width: 1024px){
-    .team {
-        width: 100%;
-        margin: auto;
-        flex-direction: column;
-    }
-    .team-img {
-      margin-top: 50px;
-    }
-    .team-text {
-        width: 90%;
-        text-align: justify;
-        margin: auto;
-    }
-    .team > h4 {
-        font-size: 28px;
-    }
+  .team {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+
+  }
+
+  .team-text {
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+    // margin: 10px;
+  }
+
+  .team-img img {
+    width: 90%;
+    // margin-top: 0px ;
+  }
+
+  .team-img {
+    margin-top: 0px;
+  }
+
+  .team h4 {
+    font-size: 18px;
+  }
+
+  .team-img img:nth-child(2),
+  .team-img img:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .team {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .team-img {
+    margin-top: 50px;
+  }
+
+  .team-text {
+    width: 90%;
+    text-align: justify;
+    margin: auto;
+  }
+
+  .team>h4 {
+    font-size: 28px;
+  }
 }
 
 .popup-text {
-    display: inline-block;
-    font-size: 24px;
-    // padding: 10px;
-    background-color: transparent;
-    animation: pop-up 1s ease-in-out forwards;
+  display: inline-block;
+  font-size: 24px;
+  // padding: 10px;
+  background-color: transparent;
+  animation: pop-up 1s ease-in-out forwards;
+}
+
+@keyframes pop-up {
+  0% {
+    transform: scale(0.7);
   }
-  
-  @keyframes pop-up {
-    0% {
-      transform: scale(0.7);
-    }
-    100% {
-      transform: scale(1);
-    }
+
+  100% {
+    transform: scale(1);
   }
-  
-  .typewriter-text {
-    
-    overflow: hidden; /* Hide overflow text */
-    border-right: 2px solid black; /* Add a border for the typewriter effect */
-    // white-space: nowrap; /* Prevent wrapping */
-    animation: typewriter 5s steps(40) forwards;
+}
+
+.typewriter-text {
+
+  overflow: hidden;
+  /* Hide overflow text */
+  border-right: 2px solid black;
+  /* Add a border for the typewriter effect */
+  // white-space: nowrap; /* Prevent wrapping */
+  animation: typewriter 5s steps(40) forwards;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
   }
-  
-  @keyframes typewriter {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%; /* Expand width to reveal text */
-      border-right: none;
-    }
+
+  to {
+    width: 100%;
+    /* Expand width to reveal text */
+    border-right: none;
   }
-  @keyframes fadeInOut {
-    0% {
-      opacity: 0; /* Text starts invisible */
-    }
-    50% {
-      opacity: 0.6; /* Text fully visible */
-    }
-    100% {
-      opacity: 1; /* Text fades out */
-    }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    /* Text starts invisible */
   }
-  
-  /* Apply the animation to the text */
-  .fade-in-out {
-    animation: fadeInOut 2s ease-in-out forwards; /* Adjust duration and timing function as needed */
+
+  50% {
+    opacity: 0.6;
+    /* Text fully visible */
   }
+
+  100% {
+    opacity: 1;
+    /* Text fades out */
+  }
+}
+
+/* Apply the animation to the text */
+.fade-in-out {
+  animation: fadeInOut 2s ease-in-out forwards;
+  /* Adjust duration and timing function as needed */
+}

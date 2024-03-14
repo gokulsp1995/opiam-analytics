@@ -20,7 +20,7 @@
     overflow: hidden; /* Hide overflow text */
     border-right: 2px solid white; /* Add a border for the typewriter effect */
     // white-space: nowrap; /* Prevent wrapping */
-    animation: typewriter 4s steps(40) forwards;
+    animation: typewriter 1s steps(40) forwards;
   }
   
   @keyframes typewriter {
@@ -48,7 +48,7 @@
   
   /* Apply the animation to the text */
   .fade-in-out {
-    animation: fadeInOut 3s ease-in-out forwards; /* Adjust duration and timing function as needed */
+    animation: fadeInOut 2s ease-in-out forwards; /* Adjust duration and timing function as needed */
   }
 
 .problem {
@@ -59,7 +59,7 @@
     &.animate {
         animation: fadeInOut 2s ease-in-out forwards;
     }
-    h1{
+    h2{
         font-weight: 400;
         font-size: 42px;
         margin-bottom: 50px;
@@ -80,7 +80,7 @@
 .problem-div > div {
     // width: 300px;
 }
-.problem-div h2 {
+.problem-div h3 {
     color: white;
     font-size: 24px;
     width: 300px;
@@ -94,6 +94,15 @@
 }
 .problem-div-resp{
     display: none;
+}
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+    .problem h2{
+      // font-weight: 400;
+      font-size: 36px;
+      // margin-bottom: 50px;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -130,7 +139,7 @@
         background-color: #374355;
         color: snow;
         padding: 30px;
-        h1{
+        h2{
             font-weight: 400;
             font-size: 28px;
             margin-bottom: 10px;
@@ -140,7 +149,7 @@
     .problem-div-resp > div {
         width: 300px;
     }
-    .problem-div-resp h2 {
+    .problem-div-resp h3 {
         color: white;
         font-size: 24px;
         font-weight: 400;
@@ -157,10 +166,10 @@
         width: 100%;
         margin: auto;
         img{
-            width: 60%;
+            width: 50%;
             margin: 20px auto;
         }
-        h1{
+        h2{
             // text-wrap: wrap;
             word-wrap: break-word;
         }
@@ -179,12 +188,15 @@
     .problem-div-resp > div {
         // width: 300px;
     }
-    .problem-div-resp h2 {
+    .problem-div-resp h3 {
+      font-size: 24px;
         color: white;
         width: 80%;
         margin: auto;
+        font-weight: 300;
         span {
           color: #ebb5b5;
+          font-weight: 700;
         }
     }
 }

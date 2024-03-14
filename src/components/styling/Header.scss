@@ -199,7 +199,7 @@
   }
 
   .header .content-container .sub-heading {
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 400;
     margin-top: 50px;
     margin-bottom: 10px;
@@ -232,11 +232,16 @@
 
   .sub-heading {
     font-size: 34px;
+
+    br{
+      display: none;
+    }
     /* Adjust font size for tablets */
   }
 
-  .content-container {
+  .header .content-container {
     padding-right: 0px;
+    width: 80%;
   }
 
   .header-image {
