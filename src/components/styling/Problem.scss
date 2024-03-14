@@ -102,7 +102,12 @@
       font-size: 36px;
       // margin-bottom: 50px;
   }
-
+  .problem {
+    img{
+        width: 300px;
+        margin: 20px auto 30px;
+    }
+}
 }
 
 @media (max-width: 768px) {
