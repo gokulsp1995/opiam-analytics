@@ -141,13 +141,13 @@
       .leverage {
           font-size: 28px;
           font-weight: 400;
-          color: #7aa8cf;
-          text-align: left;
+          // color: #whi;
+          text-align: justify;
           // margin: auto;
           margin-bottom: 55px;
     }
     .red-header{
-      color: rgba(149, 10, 50, 0.768);
+      // color: white;
       font-size: 36px;
       font-weight: 400;
       margin-top: 20px;
@@ -171,12 +171,12 @@
     padding: 0 10px 20px 10px;
 
     img {
-      width: 80%;
+      width: 85%;
       margin: 0px 40px 0px 40px;
     }
 
     div {
-      width: 90%;
+      // width: 90%;
     }
 
     // h2 {
@@ -211,20 +211,27 @@
       .leverage {
         font-size: 20px;
         font-weight: 400;
-        color: #7aa8cf;
-        text-align: left;
+        // color: #7aa8cf;
+        // text-align: left;
         // margin: auto;
         margin-bottom: 55px;
-        text-align: center;
+        text-align: justify;
         margin: auto;
+        width: 80%;
   }
       .red-header {
-        color: rgba(149, 10, 50, 0.768);
+        // color: rgba(149, 10, 50, 0.768);
         font-size: 28px;
         font-weight: 400;
       }
     }
 
+  }
+  .slide-in-from-left {
+    animation: none; /* Stop the animation */
+  }
+  .slide-in-from-right {
+    animation: none; /* Stop the animation */
   }
 
 
@@ -266,9 +273,9 @@
         border-radius: 40px;
         font-weight: 700;
         cursor: pointer;
-        background-color: #7aa8cf;
+        // background-color: #7aa8cf;
         border: none;
-        color: white;
+        // color: white;
         margin: 10px auto;
       }
     }

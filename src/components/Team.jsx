@@ -28,8 +28,7 @@ const Team = () => {
   return (
     <div ref={headerRef} className={`team ${isVisible ? 'animate' : ''}`}>
       <div className="team-text">
-        <h2 className="enhance">It's time for a
-<br /> Transformation</h2>
+        <h2 className="enhance">It's time for a<br /> Transformation</h2>
         <h4 className="fade-in-out">Organisations worldover are deploying AI and Analytics, leading to a new way of managing businesses. While companies improve performance, profitability and on time deliveries with the new found knowledge they replace organisations with conventional systems from the market, similar to the industrial revolution.</h4>
         {/* <h4 className="gray-h4 fade-in-out">Together, we work to embed next-generation technologies into your business, ensuring a smooth transition and immediate value addition without overhauling your existing infrastructure.</h4> */}
       </div>
