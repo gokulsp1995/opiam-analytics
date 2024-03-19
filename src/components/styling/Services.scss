@@ -75,11 +75,12 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: #374355;
 
   h3 {
     font-size: 28px;
     font-weight: 400;
-    color: #7aa8cf;
+    color: white;
     text-align: left;
     // margin: auto;
     // margin-bottom: 80px;
@@ -93,6 +94,7 @@
 
   .leverage {
     // line-height: 100%;
+    text-align: justify;
   }
 
   a {
@@ -111,7 +113,7 @@
     justify-content: center;
     align-items: flex-start;
     .red-header {
-      color: rgba(149, 10, 50, 0.768);
+      color: white;
       font-size: 42px;
       font-weight: 400;
     }

@@ -30,8 +30,8 @@ const Integration = () => {
             {/* {`integration ${isVisible ? 'animate' : ''}`} */}
             <div className="header-para">
                 <h2 className="">Build AI and Analytics into <br /> your existing systems  </h2>
-                <p className="">Your business problems, solutions and possibilities are all there in your organizational data. All you need is AI and Analytics.</p>
-                <p>Our technology experts will develop custom and off the box solutions to suit your organizations requirements, giving you a single source of truth for all your challenges.</p>
+                {/* <p className="">Your business problems, solutions and possibilities are all there in your organizational data. All you need is AI and Analytics.</p> */}
+                <p>When we build these technologies into your existing systems, despite any systems that you currently use , it transforms them into tools with enormous power, driving performance, productivity and a new set of objectives and targets for on time deliveries, and profitability.</p>
             </div>
             <div className="container-img">
                 <img src={image1} alt="image1" className={`first ${isVisible ? 'slide-in-from-left' : ''}`} />

@@ -17,7 +17,7 @@ function App() {
         <Integration />
         <Team />
         {/* <Package /> */}
-        <Problem />
+        {/* <Problem /> */}
         <Services />
       <Footer />
 

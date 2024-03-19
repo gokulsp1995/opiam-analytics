@@ -38,17 +38,18 @@ const Body = () => {
             <h2 className={`${isVisible ? 'slide-in-from-left' : ''}`}>Digital First for the Construction Industry</h2>
 
             <h3 className={`${isVisible ? 'slide-in-from-right' : ''}`}>Data Analytics</h3>
-            <container><p className={`popup-text ${isVisible ? 'slide-in-from-left' : ''}`}>Dive deep into the heart of your project's data to uncover actionable insights and foresights. Our interconnected <b>series of performance dashboards</b> provide real-time visibility critical project metrics, enabling you identify performance gaps, predict potential delays, optimize costs effectively.</p>
+            <container><p className={`popup-text ${isVisible ? 'slide-in-from-left' : ''}`}>Dive deep into the heart of your project's data to uncover actionable insights and foresights. Our connected <b>series of performance dashboards</b> provide real-time visibility to critical project metrics, enabling you to identify performance gaps, predict potential delays, optimize costs effectively.</p>
             </container>
 
-            <h3 className={`${isVisible ? 'slide-in-from-right' : ''}`}>Generative AI</h3>
+            <h3 className={`${isVisible ? 'slide-in-from-right' : ''}`}>Workflow Automation</h3>
             <container>
-                <p className={`popup-text ${isVisible ? 'slide-in-from-left' : ''}`}>From on-demand analytics to AI-driven processes, deploying generative AI assistants can enhance productivity and decision-making in organizations.</p>
+                <p className={`popup-text ${isVisible ? 'slide-in-from-left' : ''}`}>Create a seamless and efficient workflow across functions with scheduled notifications, triggers and events and integrate applications to create a flow.
+</p>
             </container>
 
-            <h3 className={` ${isVisible ? 'slide-in-from-right' : ''}`}>AI Process Automation</h3>
+            <h3 className={` ${isVisible ? 'slide-in-from-right' : ''}`}>Generative AI</h3>
             <container>
-                <p className={`popup-text ${isVisible ? 'slide-in-from-left' : ''}`}>Our capability to integrate applications and AI-driven processes across functions can create seamless workflows robust for your organisation. </p>
+                <p className={`popup-text ${isVisible ? 'slide-in-from-left' : ''}`}>Digital Assistants including generative AI, can help in sharing tasks, providing assistance and information further driving productivity of the organisation.</p>
             </container>
         </div>
     )
