@@ -43,13 +43,13 @@ const Body = () => {
 
             <h3 className={`${isVisible ? 'slide-in-from-right' : ''}`}>Workflow Automation</h3>
             <container>
-                <p className={`popup-text ${isVisible ? 'slide-in-from-left' : ''}`}>Create a seamless and efficient workflow across functions with scheduled notifications, triggers and events and integrate applications to create a flow.
+                <p className={`popup-text ${isVisible ? 'slide-in-from-left' : ''}`}>Create a seamless and efficient workflow across functions with scheduled notifications, triggers and events to create a flow.
 </p>
             </container>
 
             <h3 className={` ${isVisible ? 'slide-in-from-right' : ''}`}>Generative AI</h3>
             <container>
-                <p className={`popup-text ${isVisible ? 'slide-in-from-left' : ''}`}>Digital Assistants including generative AI, can help in sharing tasks, providing assistance and information further driving productivity of the organisation.</p>
+                <p className={`popup-text ${isVisible ? 'slide-in-from-left' : ''}`}>AI Assistants, agents and generative AI can provide on-demand analytics, information and sharing of tasks, further driving productivity of the organisation.</p>
             </container>
         </div>
     )
