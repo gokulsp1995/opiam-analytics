@@ -45,7 +45,7 @@ const Header = () => {
                 <div className="content-container">
                     <h1 className="main-heading">Data Analytics and AI <br /> for the Construction <br /> Industry</h1>
                     <h3 className="sub-heading">Make Data-Driven <br /> Decisions</h3>
-                    <p className="contact-info">SCHEDULE A CALL</p>
+                    <a href="https://calendly.com/nivedith"><p className="contact-info">SCHEDULE A CALL</p></a>
                 </div>
                 <img src={image1} alt="Header Image" className="header-image" width="690px" />
             </div>

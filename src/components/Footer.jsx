@@ -37,7 +37,7 @@ const Footer = () => {
                     <div className="left-content">
                         <h2 className="heading typewriter-text">Schedule a <br/>Demo</h2>
                         {/* <img src={logo} alt="logo" /> */}
-                        <button>Book a Demo</button>
+                        <a href="https://calendly.com/nivedith"><button>Book a Demo</button></a>
                     </div>
                         <div className="right-content">
                             <div className="address-content">
